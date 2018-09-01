@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 80px;
+    background: url("../images/gplaybg.png") repeat;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+form {
+    font-size: 18px;
+}
+
+h1 {
+    color: #fff;
+    line-height: 90px;
+    padding: 0px 20px;
+    font-size: 2em;
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background: #ddd;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #4aaaa5;
+    margin-bottom: 30px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #666;
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 18px;
+    line-height: 45px;
+    color: #777;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.thumbnail {
+    position: relative;
+    padding: 15px;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+}
+
+.thumbnail h2 {
+    position: absolute;
+    bottom: 0.5em;
+    width: calc(100% - 30px);;
+    line-height: 80px;
+    color: #fff;
+    font-size: 1.5em;
+    background: #4aaaa5;
+    transition: bottom 300ms;
+}
+
+#header-cont {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#main-section {
+    overflow: auto;
+    padding: 30px;
+    background: #fff;
+    color: #777;
+    border: 1px solid #ddd;
+}
+
+#message-input {
+    height: 200px;
+}
+
+#name-input, #email-input, #message-input {
+    border: 1px solid #ccc;
+    margin: 0px 0px 15px 0px;
+    padding: 7px;
+    font-size: 14px;
+}
+
+#name-link {
+    height: 90px;
+    text-align: center;
+    background: #4aaaa5;
+}
+
+#name-link:hover {
+    text-decoration: none;
+    background: #288883;
+}
+
+#navbar {
+    margin-bottom: 20px;
+    height: 100%;;
+    padding: 0px;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+#profile-pic {
+    padding: 0px 10px 0px 0px;
+}
+
+#submit {
+    width: 115px;
+    height: 40px;
+    border: none;
+    background: #4aaaa5;
+    color: #fff;
+}
+
+#width-cont {
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    ul {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #name-link {
+        width: 100%;
+    }
+
+    #profile-pic {
+        padding-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    #width-cont {
+        max-width: 768px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
